@@ -784,9 +784,15 @@ color: red;
     margin-top: 20px;
     margin-bottom: 150px;
 }
-
+/*
 .contact-title2 h1{
     font-size: 48px;
+    margin-bottom: 90px;
+}
+*/
+
+.contact-title2 h1{
+    font-size: 28px;
     margin-bottom: 90px;
 }
 
