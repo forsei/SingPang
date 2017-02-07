@@ -1,0 +1,165 @@
+.nb-header {
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/nutriheader-texture_no_text.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.nb-header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+.header-title{
+    margin-top: 5%;
+}
+
+
+.header-aurora {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: auto;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/Cleanroom1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header-aurora .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+
+
+
+
+.header-tbb {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/office_header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header-tbb .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+
+.header-form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/slussen.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header-form .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*GENERAL HEADER-----------------------------------*/
+
+.header-content-inner{
+    margin-top: 26%;
+}
+
+
+.header-content-inner h1{
+    font-size: 68px;
+}
+
+.header-content-inner p{
+    font-size: 28px;
+    text-decoration: underline;
+
+}
+
+.roles{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    color:white;
+
+}
+
+.roles b{
+    font-size: 18px;
+}
+
+
+.nutribox-item{
+    margin-top: 10%;
+}
+
+.img-custom{
+    margin: auto;
+    text-align: center;
+
+}
+
+.project-info{
+    background: #1b1d20;
+}
+
+@media screen and (max-width: 765px) {
+    .header-content-inner{
+        margin-top: 35%;
+    }
+
+    .header-content-inner h1{
+    font-size: 30px;
+}
+.header-content-inner p{
+font-size: 20px;
+}
+
+.roles{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+}
