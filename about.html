@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html ng-app="myView">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[SingP]</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="jquery-ui-1.11.4\jquery-ui.min.css">
+  <link rel="stylesheet" href="css\nbstyles.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css\styles.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="bootstrap-social-icons\assets\font-awesome\css\font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body ng-controller="ProjectController">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                    <span class="light">Sing</span> Pang
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav snip1135">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="index.html"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="project.html">Project</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <header  class="intro-header" style="background-image: url('img/slussen.jpg')">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="site-heading">
+                <h1>ABOUT</h1>
+                <hr class="small">
+                <span class="subheading">Sing Pang Portfolio Site</span>
+            </div>
+        </div>
+    </div>
+</div>
+</header>
+
+
+        <main>
+
+            <section class="bg_welcome2" id="welcome">
+
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="col-md-4 skillfade">
+                                <h3>WEB DESIGN</h3>
+                            </div>
+
+                            <div class="col-md-4 skillfade">
+                                <h3>FRONT END DEV</h3>
+                            </div>
+
+                            <div class="col-md-4 skillfade">
+                                <h3>GRAPHIC DESIGN</h3>
+                            </div>
+                        </div>
+
+                </div>
+            </section>
+
+
+
+        <section class="about-me" id="welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 ">
+                        <h2 style="text-align:center;">Me</h2>
+                        <hr>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida leo sit
+                            amet nisl egestas, eu cursus mi volutpat. Class aptent taciti socio ad litora torq
+                            uent per conubia nostra.
+
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida leo sit
+                            amet nisl egestas, eu cursus mi volutpat class aptent taciti socio ad litora torq.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about-exp hideme" id="welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 ">
+                        <h2 style="text-align:center;">EXPERIENCE</h2>
+                        <hr>
+                        <p>
+                            2016 - 2016 (3 months) / Internship Front-end, Graphic design / Will & Skill
+                        </p>
+
+                        <p>
+                            2015 - 2015 (5 weeks) / Internship Front-end / Aurora AB
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="about-tools hideme" id="welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 ">
+                        <h2 style="text-align:center;">TOOLS</h2>
+                        <hr>
+                        <p>
+                            HTML5, CSS3, Javascripts (Basic), AngularJS (Basic), Visual studio, ATOM, Adobe Photoshop, Adobe Illustrator(Basic), Wacom Tablet
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="about-edu hideme" id="welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 ">
+                        <h2 style="text-align:center;">EDUCATIONS</h2>
+                        <hr>
+                        <p>
+                            2014 - 2016 / Systemutvecklare – Agil webprogrammering - Lernia Yrkeshögskola
+                        </p>
+                        <p>
+                            2014 - 2016 / El - Spelprogrammering - NTI Gymnasium
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="" style="margin-top:-7%;">
+            <div ng-include = "'html/more.html'" ></div>
+        </div>
+    </main>
+
+        <div ng-include = "'html/footer.html'"></div>
+
+        <script src="js\angular-parallax.js" charset="utf-8"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+        <script src="jquery-ui-1.11.4\external\jquery\jquery.js"></script>
+        <script src="jquery-ui-1.11.4\jquery-ui.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <script src="js\main.js" charset="utf-8"></script>
+        <script src="js\app.js" charset="utf-8"></script>
+    </body>
+    </html>
