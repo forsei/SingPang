@@ -21,7 +21,7 @@
                 desc2: 'ANGULARJS',
                 desc3: 'PHOTOSHOP',
                 role: 'Front-Dev, UI/UX, Graphic Design',
-                link: 'Phoenixlaw.html'
+                link: 'phoenixlaw.html'
             },
 
             {
@@ -78,7 +78,7 @@
               desc2: 'ANGULARJS',
               desc3: 'PHOTOSHOP',
               role: 'Front-Dev, UI/UX, Graphic Design',
-              link: 'Phoenixlaw.html'
+              link: 'phoenixlaw.html'
           },
 
             {
